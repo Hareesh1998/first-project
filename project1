@@ -1,0 +1,19 @@
+#!/bin/bash
+
+echo Hello, what is your name?
+read name
+echo How old are you?
+read age
+echo what is your favorite color?
+echo favorite-color
+
+echo Nice to meet you $name
+
+If [ $age -ge 18 ];
+then
+      echo $name is above 18;
+else
+      echo $name is underage; 
+fi
+
+echo Users favorite color is $favorite-color
